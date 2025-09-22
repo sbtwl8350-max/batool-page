@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>فيديو بتول</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: #f0f0f0;
+      font-family: Arial, sans-serif;
+    }
+    iframe {
+      width: 90%;
+      height: 70%;
+      border: none;
+      margin-bottom: 20px;
+    }
+    a {
+      display: inline-block;
+      padding: 12px 20px;
+      background-color: #ff4081;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 16px;
+      transition: background 0.3s;
+    }
+    a:hover {
+      background-color: #e91e63;
+    }
+  </style>
+</head>
+<body>
+  <!-- الفيديو من Google Drive -->
+  <iframe src="https://drive.google.com/file/d/1x52z-jcbo9PslEUthoM2n3Jhd7FrhNVj/preview" allow="autoplay"></iframe>
+  
+  <!-- زر تحميل الفيديو -->
+  <a href="https://drive.google.com/uc?export=download&id=1x52z-jcbo9PslEUthoM2n3Jhd7FrhNVj" download>
+    ⬇ تحميل الفيديو
+  </a>
+</body>
+</html>
